@@ -1,0 +1,7 @@
+@Given "^snippet implemented with (.*) says '(.*) (.*)'$"
+    Given $1 module is installed
+    When $1 module says $2
+    Then the greeting to $1 should be '$2 $3'
+
+@Given "^snippet implemented with Selenium opens '(.*)'$"
+    When open '$1'
