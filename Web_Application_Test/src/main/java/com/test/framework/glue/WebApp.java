@@ -14,14 +14,14 @@ import cucumber.api.java.en.When;
 
 public class WebApp {
 
-	public String driverPath = "C:/rtob-ui-genie-auto-develop/driver/";
+	public String driverPath = "C:/Web_Application_Test/driver/";
 	public WebDriver driver;
 
 	Commons com = new Commons();	
 
 
 	
-	public String screenshotpath = "C:/rtob-ui-genie-auto-develop/screenshots";
+	public String screenshotpath = "C:/Web_Application_Test/screenshots";
 
 	@Given("^Navigate to TravelexUK link$")
 	public void navigate_to_TravelexUK_link() throws Throwable {
