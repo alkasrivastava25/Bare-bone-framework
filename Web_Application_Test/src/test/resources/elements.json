@@ -1,9 +1,0 @@
-[
-  {
-    "name": "Sample WebElement",
-    "lookupDetails": {
-      "findBy": "id",
-      "value": "sample webelement"
-    }
-  }
-]
